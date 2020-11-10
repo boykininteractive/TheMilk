@@ -64,9 +64,6 @@ export default {
       // ignore: ["**/Card/*.js"], // will ignore js files found under components/ui-2/card
       // ignore: ["**/List/*.js"], // will ignore js files found under components/ui-2/list
     },
-    {
-      path: "~/boykin/components/",
-  },
   ],
   /*
   ** Nuxt.js modules

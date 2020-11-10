@@ -27,6 +27,19 @@
 - create a new NGINX virtual host
 - copy in default config (below)
 - Get a new SSL
+- (Dev Only) Update location to point to node server
+
+```
+location / {
+
+		proxy_pass http://localhost:3010;
+		proxy_http_version 1.1;
+		proxy_set_header Upgrade $http_upgrade;
+		proxy_set_header Connection 'upgrade';
+		proxy_set_header Host $host;
+		proxy_cache_bypass $http_upgrade;
+	}
+```
 
 ```
 sudo certbot --nginx -d example.com -d www.example.com
