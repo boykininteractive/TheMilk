@@ -1,5 +1,11 @@
-
+purgeCSS: {
+  enabled: false;
+}
 export default {
+    server: {
+    port: 3000, // default: 3000
+    host: "localhost" // default: localhost
+  },
   mode: 'universal',
   /*
   ** Headers of the page
@@ -35,6 +41,23 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+  ],
+  components: [
+    // Module Option as an array of Strings
+    // "~/components/ui-1/",
+
+    // Module Option as an array of Objects
+    {
+      path: "~/components/",
+      extensions: ["vue"],
+      // prefix: "aex",
+      // ignore: ["**/*.js"], // will ignore js files found directly under components/ui-2 and sub-folders
+      // ignore: ["**/Card/*.js"], // will ignore js files found under components/ui-2/card
+      // ignore: ["**/List/*.js"], // will ignore js files found under components/ui-2/list
+    },
+    {
+      path: "~/components/",
+  },
   ],
   /*
   ** Nuxt.js modules
