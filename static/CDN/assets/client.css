@@ -1,0 +1,87 @@
+/**************************************************************
+/**************************************************************
+  CLIENT.CSS
+/**************************************************************
+/*************************************************************/
+
+body,
+html,
+#__nuxt,
+#__layout {
+  height: 100%;
+}
+
+body {
+  background: #000;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-ExtraLight.woff")
+      format("woff"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-ExtraLight.woff2")
+      format("woff2"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-ExtraLight.ttf")
+      format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Medium.woff")
+      format("woff"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Medium.woff2")
+      format("woff2"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Medium.ttf")
+      format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Bold.woff")
+      format("woff"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Bold.woff2")
+      format("woff2"),
+    url("https://boykinmedia-9eb1.kxcdn.com/CDN/themes/kounter/kounter-html/minimal-info-bg/fonts/montserrat/Montserrat-Bold.ttf")
+      format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**************************************************************
+/**************************************************************
+  RESPONSIVE
+/**************************************************************
+/**************************************************************
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  h2 {
+    font-size: 20px !important;
+  }
+  h2 strong {
+    font-size: 16px !important;
+  }
+  p {
+    padding: 0px 30px !important;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+}
+
+/* Tablet Landscape size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1024px) {
+}
