@@ -1,6 +1,14 @@
 # boykin.site
 
+[Boykin.Site](https://Boykin.Site).
+
 > My stylish Nuxt.js project
+
+## Client Setup
+
+- Register domain w/ Name Cheap
+- Update DNS to DNS Made Easy
+- Choose DO_NUXTJS_MIAB template (do.proxy.nuxtjs)
 
 ## Build Setup
 
@@ -18,5 +26,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
