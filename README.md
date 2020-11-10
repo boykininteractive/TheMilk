@@ -15,6 +15,11 @@
 - Add project folder to /var/www
 - change ownership to 'boykintj'
 
+## Update node.json (NGINX - Boykin.Dev)
+
+- Add a Prod and Dev instance of the app (2 entries)
+- Name should match the name in the build.sh file
+
 ## GitLab (198.211.113.26)
 
 - Settings > CI/CD / Variables
