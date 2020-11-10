@@ -73,7 +73,7 @@ server {
 
 ## do.proxy.nuxtjs (206.189.188.16)
 
-- create a new NGINX virtual host
+- create a new NGINX virtual host (Prod Only)
 - copy in default config (below)
 - SSH into machine and get a new SSL
 
