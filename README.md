@@ -1,6 +1,6 @@
-# boykin.site
+# Boykin.Website
 
-[Boykin.Site](https://Boykin.Site).
+[Boykin.Website](https://Boykin.Website).
 
 > My stylish Nuxt.js project
 
@@ -9,6 +9,21 @@
 - Register domain w/ Name Cheap
 - Update DNS to DNS Made Easy
 - Choose DO_NUXTJS_MIAB template (do.proxy.nuxtjs)
+
+## Boykin.Dev (192.34.58.50)
+
+- Add project folder to /var/www
+- change ownership to 'boykintj'
+
+## GitLab (198.211.113.26)
+
+- Settings > CI/CD / Variables
+- Add FTP_PASSWORD
+- Add FTP_USERNAME
+- Add IP_ADDRESS
+
+- Settings > Repository > Protected Branches
+- Protect 'develop' branch
 
 ## Build Setup
 
