@@ -56,7 +56,7 @@ export default {
       // ignore: ["**/List/*.js"], // will ignore js files found under components/ui-2/list
     },
     {
-      path: "~/components/",
+      path: "~/boykin/components/",
   },
   ],
   /*

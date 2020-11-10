@@ -1,0 +1,3 @@
+[submodule "boykin"]
+	path = boykin
+	url = https://boykintj@gitlab.boykin-hosting.com/nuxtjs/boykin-vue-components.git
