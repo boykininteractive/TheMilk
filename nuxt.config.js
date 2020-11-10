@@ -3,10 +3,9 @@ purgeCSS: {
 }
 export default {
     server: {
-    port: 3051, // default: 3000
+    port: 3050, // default: 3000
     host: "localhost" // default: localhost
   },
-  mode: 'universal',
   /*
   ** Headers of the page
   */
