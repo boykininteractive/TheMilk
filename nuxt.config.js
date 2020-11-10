@@ -41,6 +41,15 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
+    /*
+     ** Google Analytics Configuration
+     */
+    [
+      "@nuxtjs/google-analytics",
+      {
+        id: "UA-175536441-1"
+      }
+    ]
   ],
   components: [
     // Module Option as an array of Strings
@@ -66,7 +75,28 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    "@nuxtjs/sitemap"
   ],
+  /*
+   ** PWA Icon Configuration
+   */
+  icon: {
+    iconSrc: "/CDN/assets/favicon/android-chrome-512x512.png"
+  },
+  pwa: {
+    meta: {
+      /* meta options */
+      /* Address Bar Matches Brand Colors */
+      theme_color: "#375B76"
+    }
+  },
+  sitemap: {
+    // custom configuration
+    hostname: "https://boykin.website/"
+  },
+  robots: {
+    /* module options */
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
