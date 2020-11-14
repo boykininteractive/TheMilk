@@ -3,4 +3,4 @@
 
 npm  install &&
 npm run build &&
-pm2 restart thepursuitofhappinessatwork.boykin.dev
+pm2 restart thepursuitofhappinessatwork.com.boykin.dev
