@@ -3,7 +3,7 @@ purgeCSS: {
 }
 export default {
     server: {
-    port: 3050, // default: 3000
+    port: 3031, // default: 3000
     host: "localhost" // default: localhost
   },
   /*

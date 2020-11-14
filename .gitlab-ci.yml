@@ -18,7 +18,7 @@ deploy:
     - mkdir .public
     - cp -r * .public
     - echo "pwd" | sshpass -p $FTP_PASSWORD sftp -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS
-    - lftp -e "mirror -R .public/ /var/www/boykin.website/" -u $FTP_USERNAME,$FTP_PASSWORD sftp://$IP_ADDRESS
+    - lftp -e "mirror -R .public/ /var/www/thepursuitofhappinessatwork.boykin.dev/" -u $FTP_USERNAME,$FTP_PASSWORD sftp://$IP_ADDRESS
 
 post_production:
   stage: post_deploy
@@ -26,5 +26,5 @@ post_production:
     - apt-get update -qq && apt-get install -y -qq sshpass
     - sshpass -V
     - export SSHPASS=$FTP_PASSWORD
-    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/boykin.website && chmod +x ./build.sh"
-    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/boykin.website && ./build.sh"
+    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/thepursuitofhappinessatwork.boykin.dev && chmod +x ./build.sh"
+    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/thepursuitofhappinessatwork.boykin.dev && ./build.sh"

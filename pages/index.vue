@@ -1,8 +1,10 @@
 <template>
-  <div class="flex justify-center align-center text-center mx-auto py-12">
+  <div class="flex justify-center py-12 mx-auto text-center align-center">
     <div>
       <LazyLogo />
-      <div class="text-6xl text-secondary-400 font-bold">boykin.site</div>
+      <div class="text-6xl font-bold text-secondary-400">
+        thepursuitofhappinessatwork.boykin.dev
+      </div>
       <LazyPalette />
     </div>
   </div>
