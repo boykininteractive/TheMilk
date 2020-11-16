@@ -3,7 +3,7 @@
     <div>
       <LazyLogo />
       <div class="text-6xl font-bold text-secondary-400">
-        thepursuitofhappinessatwork.boykin.dev
+        thepursuitofhappinessatwork.com.boykin.dev
       </div>
       <LazyPalette />
     </div>
