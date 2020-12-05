@@ -37,7 +37,7 @@
             <blockquote class="quote">
               If you're looking for an approach to find greater purpose in your
               job and happiness in life
-              <strong>The Pursuit of happiness at Work</strong> will give you
+              <strong>The Pursuit of Happiness at Work</strong> will give you
               valuable tools and more.
             </blockquote>
             <div
