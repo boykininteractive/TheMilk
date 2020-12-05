@@ -1,17 +1,37 @@
 <template>
-  <div class="flex justify-center py-12 mx-auto text-center align-center">
-    <div>
-      <LazyLogo />
-      <div class="text-6xl font-bold text-secondary-400">
-        thepursuitofhappinessatwork.com.boykin.dev
-      </div>
-      <LazyPalette />
-    </div>
+  <div>
+    <LazyHero />
+    <LazyBenefits />
+
+    <!--- CHAPTERS --->
+    <LazyChaptersTop />
+    <LazyChapters />
+    <LazyChaptersBottom />
+
+    <LazyAudience />
+
+    <!--- REVIEWS --->
+    <LazyReviewsTop />
+    <LazyReviews />
+    <LazyReviewsBottom />
+
+    <LazySubscribe />
+
+    <!--- AUTHOR --->
+    <LazyAuthorTop />
+    <LazyAuthor />
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  layout: "chayma",
+  head() {
+    return {
+      title: "Home",
+    };
+  },
+};
 </script>
 
 <style>
