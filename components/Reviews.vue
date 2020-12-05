@@ -58,7 +58,7 @@
         <div class="p-3 mb-4 item col-12 col-lg-4">
           <div class="p-4 pt-5 rounded item-inner">
             <blockquote class="quote">
-              <strong>The Pursuite of Happiness at Work</strong> is an
+              <strong>The Pursuit of Happiness at Work</strong> is an
               easy-to-read and useful guide for professionals seeking to find
               happiness in their careers. If you are strugglin to manage your
               career, the useful approaches expressed will help you navigate
