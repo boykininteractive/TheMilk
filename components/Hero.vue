@@ -13,19 +13,24 @@
         <div class="col-12 col-md-7 align-self-center">
           <div class="text-center promo pr-md-3 pr-lg-5 text-md-left">
             <h1 class="mb-3 headline text-capitalize">
-              the making <br />of a manager
+              The Pursuit Of <br />
+              Happiness at Work
             </h1>
+            <!--             <h1 class="mb-3 headline text-capitalize">
+              The Pursuit<br />
+              Of Happiness<br />at Work
+            </h1> -->
             <div class="mb-4 subheadline">
-              An everything you need to know field guide to rocking your job,
-              earning your confidence, and leading your team to new horizons and
-              opportunities.
+              A Practical Guide to Having a Purpose-Filled Career, author and
+              speaker James Nixon uses proven strategies and true stories to
+              guide you toward happiness in both your life and work.
             </div>
             <div class="cta-holder">
               <a
                 class="btn btn-primary mr-lg-4"
                 data-toggle="modal"
                 data-target="#bookmodal"
-                >Buy for $49</a
+                >Buy for $9.99</a
               >
               <a
                 class="btn btn-secondary scrollto d-none d-lg-inline-block"
@@ -41,7 +46,7 @@
               <li>
                 <div class="coverDesign">
                   <img
-                    src="http://via.placeholder.com/218x300"
+                    src="/CDN/assets/bookcover.png"
                     class="img-fluid"
                     alt="cover"
                   />
@@ -54,14 +59,14 @@
               <li>
                 <span>
                   <img
-                    src="http://via.placeholder.com/200x200"
+                    src="/CDN/assets/biopic.jpg"
                     class="img-fluid rounded-circle"
                     alt="author"
                   />
                   <span>
                     A book by
                     <br />
-                    John Smith</span
+                    James Nixon</span
                   >
                 </span>
               </li>

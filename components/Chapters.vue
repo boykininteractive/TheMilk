@@ -11,7 +11,7 @@
                 <li>
                   <div class="coverDesign">
                     <img
-                      src="http://via.placeholder.com/218x300"
+                      src="/CDN/assets/bookcover.png"
                       class="img-fluid"
                       alt="cover"
                     />
@@ -21,20 +21,6 @@
               </ul>
               <ul class="page">
                 <li></li>
-                <li>
-                  <span>
-                    <img
-                      src="http://via.placeholder.com/200x200"
-                      class="img-fluid"
-                      alt="author"
-                    />
-                    <span>
-                      A book by
-                      <br />
-                      John Smith</span
-                    >
-                  </span>
-                </li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -52,13 +38,15 @@
           <div class="col-12 col-md-6">
             <div class="text-center key-points">
               <ol class="mx-auto text-left key-points-list d-inline-block">
-                <li>People Management Skills</li>
-                <li>Business Finance</li>
-                <li>Influencing Skills</li>
-                <li>Communication Skills</li>
-                <li>Negotiation Skills</li>
-                <li>Project Management Skills</li>
-                <li>Strategy and Planning</li>
+                <li>The Guide</li>
+                <li>Choose a New Meaning of Success</li>
+                <li>Create Happiness at Work</li>
+                <li>Grow as a Leader</li>
+                <li>Determine Your Unique Strengths</li>
+                <li>Discover Opportunities</li>
+                <li>Plan Your Ideal Job</li>
+                <li>Execute the Search</li>
+                <li>Mission Accomplished</li>
               </ol>
               <div class="text-center">
                 <a
