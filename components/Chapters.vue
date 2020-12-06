@@ -38,7 +38,7 @@
           <div class="col-12 col-md-6">
             <div class="text-center key-points">
               <ol class="mx-auto text-left key-points-list d-inline-block">
-                <li>The Guide</li>
+                <li>The Career Happiness Guide</li>
                 <li>Choose a New Meaning of Success</li>
                 <li>Create Happiness at Work</li>
                 <li>Grow as a Leader</li>
@@ -47,6 +47,7 @@
                 <li>Plan Your Ideal Job</li>
                 <li>Execute the Search</li>
                 <li>Mission Accomplished</li>
+                <li>Closing</li>
               </ol>
               <div class="text-center">
                 <a
