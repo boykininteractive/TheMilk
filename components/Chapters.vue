@@ -6,34 +6,12 @@
         <h2 class="mb-5 text-center section-heading">The Book Chapters</h2>
         <div class="row">
           <div class="col-12 col-md-6">
-            <figure class="mx-auto book">
-              <ul class="hardcover_front list-unstyled">
-                <li>
-                  <div class="coverDesign">
-                    <img
-                      src="/CDN/assets/bookcover.png"
-                      class="img-fluid"
-                      alt="cover"
-                    />
-                  </div>
-                </li>
-                <li></li>
-              </ul>
-              <ul class="page">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-              <ul class="hardcover_back list-unstyled">
-                <li></li>
-                <li></li>
-              </ul>
-              <ul class="book_spine list-unstyled">
-                <li></li>
-                <li></li>
-              </ul>
-            </figure>
+            <img
+              src="/CDN/assets/bookcover_3d.png"
+              class="img-fluid"
+              alt="cover"
+              style="max-width: 80%"
+            />
           </div>
           <div class="col-12 col-md-6">
             <div class="text-center key-points">
