@@ -22,7 +22,9 @@
             >
               <div class="text-center source-info media-body text-md-left">
                 <div class="source-name">Michael Hyter</div>
-                <div class="soure-title">Chief Diversity Officer, Korn Ferry</div>
+                <div class="soure-title">
+                  Chief Diversity Officer, Korn Ferry
+                </div>
               </div>
             </div>
             <div class="icon-holder"><i class="fa fa-quote-right"></i></div>
