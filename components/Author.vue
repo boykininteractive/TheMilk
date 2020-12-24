@@ -14,7 +14,7 @@
           leader who has spent this career leveraging his passion for technology
           and innovation to achieve work happiness, while delivering business
           value to global organizations. James is committed to teaching and
-          motivating individuals to achieve happienss at work and choose
+          motivating individuals to achieve happiness at work and choose
           purpose-filled careers.
         </p>
         <div class="pt-4 text-center author-links">
