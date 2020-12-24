@@ -7,10 +7,10 @@
         <div class="row">
           <div class="col-12 col-md-6">
             <img
-              src="/CDN/assets/bookcover_3d.png"
+              src="/CDN/assets/bookcover_shadow.png"
               class="img-fluid"
               alt="cover"
-              style="max-width: 80%"
+              style="max-width: 90%"
             />
           </div>
           <div class="col-12 col-md-6">
