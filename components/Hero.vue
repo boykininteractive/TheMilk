@@ -37,17 +37,7 @@
           </div>
         </div>
         <div class="col-12 col-md-5 align-self-center">
-          <img
-            class=""
-            style="
-              height: auto;
-              width: 400px;
-              margin: 50px 0px 0px 0px;
-              position: relative;
-              z-index: 111;
-            "
-            src="/CDN/assets/bookcover_shadow.png"
-          />
+          <img class="hero_book_cover" src="/CDN/assets/bookcover_shadow.png" />
         </div>
       </div>
     </div>
