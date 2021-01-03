@@ -1,1 +1,0 @@
-# /static/CDN/theme
