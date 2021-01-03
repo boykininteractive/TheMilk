@@ -43,7 +43,15 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/strapi',
+    '@nuxtjs/markdownit',
   ],
+  /*
+** MARKDOWNIT
+*/
+markdownit: {
+    injected: true
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
