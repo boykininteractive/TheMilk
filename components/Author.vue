@@ -10,12 +10,12 @@
       </h2>
       <div class="mx-auto author-bio single-col-max">
         <p>
-          <strong>JAMES NIXON</strong> is a corporate strategist and product
-          leader who has spent this career leveraging his passion for technology
-          and innovation to achieve work happiness, while delivering business
-          value to global organizations. James is committed to teaching and
-          motivating individuals to achieve happiness at work and choose
-          purpose-filled careers.
+          <strong>JAMES NIXON</strong> is an author, corporate strategist, technology innovation executive, and career consultant. He teaches individuals and leaders how to improve their performance and career success by making happiness at work a priority.</p>
+ 
+<p>In his book, <i>The Pursuit of Happiness at Work</i>, James draws from his extensive experience in digital strategy and innovation at Hilton, CNN, Microsoft, Deloitte, Marriott, The New York Times, and others to offer a fresh perspective on how to align personal goals with professional pursuits to create meaningful change in your life.</p>
+ 
+<p>Nixon holds an MBA from the Johnson Graduate School of Management at Cornell University and a BS in Computer Engineering from Lehigh University.</p> 
+
         </p>
         <div class="pt-4 text-center author-links">
           <h5 class="mb-4 text-white">Follow Me</h5>
