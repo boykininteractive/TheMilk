@@ -8,12 +8,12 @@
     <LazyChapters :content="cms.ChapterList" />
     <LazyChaptersBottom />
 
-    <!-- <LazyAudience /> -->
+    <LazyAudience :content="cms.Audience" />
 
-    <!--- REVIEWS
+    <!--- REVIEWS --->
     <LazyReviewsTop />
-    <LazyReviews />
-    <LazyReviewsBottom /> --->
+    <LazyReviews :content="cms.Reviews" />
+    <LazyReviewsBottom />
 
     <!-- <LazySubscribe /> -->
 

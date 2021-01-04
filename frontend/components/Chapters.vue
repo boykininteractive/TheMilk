@@ -40,7 +40,4 @@ export default {
 </script> 
 
 <style>
-.prose strong {
-  color: #fff;
-}
 </style>

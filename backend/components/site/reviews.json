@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_site_reviews",
+  "info": {
+    "name": "Reviews",
+    "icon": "award"
+  },
+  "options": {},
+  "attributes": {
+    "reviews_title": {
+      "type": "string"
+    },
+    "reviews_subtitle": {
+      "type": "text"
+    },
+    "review": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.review"
+    }
+  }
+}

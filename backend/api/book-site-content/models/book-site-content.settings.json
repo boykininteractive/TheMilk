@@ -30,6 +30,16 @@
       "type": "component",
       "repeatable": false,
       "component": "site.benefits"
+    },
+    "Audience": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.audience"
+    },
+    "Reviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.reviews"
     }
   }
 }

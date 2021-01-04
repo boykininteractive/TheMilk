@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_audiences",
+  "info": {
+    "name": "Audience",
+    "icon": "blind"
+  },
+  "options": {},
+  "attributes": {
+    "audience_title": {
+      "type": "string"
+    },
+    "audience_subtitle": {
+      "type": "text"
+    },
+    "audience_description": {
+      "type": "richtext"
+    }
+  }
+}
