@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_site_authors",
+  "info": {
+    "name": "Author",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "author_title": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    }
+  }
+}

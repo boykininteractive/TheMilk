@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section Starts -->
-  <section class="relative bg-primary-blue" style="height: 610px">
+  <section class="relative mb-64 bg-primary-blue" style="height: 610px">
     <!--- SECTION BACKGROUND DESIGN --->
     <img
       src="/CDN/assets/images/hero-shape-left.png"
@@ -16,7 +16,7 @@
         <h1
           class="w-full mb-4 text-3xl font-bold leading-tight text-white capitalize lg:text-5xl xl:text-6xl font-Ubuntu"
         >
-          {{ content.title }}
+          {{ content.hero_title }}
         </h1>
         <div class="mb-10 text-xl text-white">
           {{ content.description }}
@@ -41,7 +41,7 @@
       </div>
     </div>
     <img
-      class="bottom-0 left-0 right-0 w-full md:absolute"
+      class="bottom-0 left-0 right-0 hidden w-full md:absolute"
       style="height: 380px"
       src="/CDN/assets/images/hero-shape-bottom.png"
     />

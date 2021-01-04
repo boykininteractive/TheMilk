@@ -11,13 +11,15 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "bio": {
-      "type": "richtext"
-    },
     "Hero": {
       "type": "component",
       "repeatable": false,
       "component": "site.hero"
+    },
+    "Author": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.author"
     }
   }
 }

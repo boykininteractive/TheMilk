@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "title": {
+    "hero_title": {
       "type": "string"
     },
     "description": {

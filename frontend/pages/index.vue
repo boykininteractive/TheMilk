@@ -1,6 +1,25 @@
 <template>
   <div>
-    <Hero :content="cms.Hero" />
+    <LazyHero :content="cms.Hero" />
+    <!-- <LazyBenefits /> -->
+
+    <!--- CHAPTERS
+    <LazyChaptersTop />
+    <LazyChapters />
+    <LazyChaptersBottom /> --->
+
+    <!-- <LazyAudience /> -->
+
+    <!--- REVIEWS
+    <LazyReviewsTop />
+    <LazyReviews />
+    <LazyReviewsBottom /> --->
+
+    <!-- <LazySubscribe /> -->
+
+    <!--- AUTHOR --->
+    <LazyAuthorTop />
+    <LazyAuthor :content="cms.Author" />
   </div>
 </template>
 
