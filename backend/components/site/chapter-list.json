@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_site_chapter_lists",
+  "info": {
+    "name": "ChapterList",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "chapterlist_title": {
+      "type": "string"
+    },
+    "Chapter": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.chapter"
+    }
+  }
+}

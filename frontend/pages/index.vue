@@ -3,10 +3,10 @@
     <LazyHero :content="cms.Hero" />
     <!-- <LazyBenefits /> -->
 
-    <!--- CHAPTERS
+    <!--- CHAPTERS --->
     <LazyChaptersTop />
-    <LazyChapters />
-    <LazyChaptersBottom /> --->
+    <LazyChapters :content="cms.ChapterList" />
+    <LazyChaptersBottom />
 
     <!-- <LazyAudience /> -->
 

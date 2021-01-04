@@ -40,8 +40,10 @@
         />
       </div>
     </div>
+
+    <!--- HERO SHAPE BOTTON --->
     <img
-      class="bottom-0 left-0 right-0 hidden w-full md:absolute"
+      class="bottom-0 left-0 right-0 hidden w-full md:block md:absolute"
       style="height: 380px"
       src="/CDN/assets/images/hero-shape-bottom.png"
     />

@@ -10,9 +10,7 @@
     </div>
 
     <!--- SECTION TITLE --->
-    <div class="w-full my-8 text-4xl font-bold text-center font-ubuntu">
-      {{ content.author_title }}
-    </div>
+    <LazySectionTitle :content="content.author_title" />
 
     <!--- BIO --->
     <div
