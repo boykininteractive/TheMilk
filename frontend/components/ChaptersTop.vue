@@ -1,7 +1,7 @@
 <template>
   <!-- Separator Starts -->
   <svg
-    class="mt-64"
+    class=""
     style="fill: #f2f2f2"
     xmlns="http://www.w3.org/2000/svg"
     version="1.1"

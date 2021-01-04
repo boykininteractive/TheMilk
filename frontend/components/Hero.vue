@@ -1,6 +1,6 @@
 <template>
   <!-- Hero Section Starts -->
-  <section class="relative mb-64 bg-primary-blue" style="height: 610px">
+  <section class="relative bg-primary-blue" style="height: 610px">
     <!--- SECTION BACKGROUND DESIGN --->
     <img
       src="/CDN/assets/images/hero-shape-left.png"
