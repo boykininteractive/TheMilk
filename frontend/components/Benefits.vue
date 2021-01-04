@@ -13,7 +13,7 @@
     </div>
     <div class="flex flex-wrap justify-center mt-10">
       <div
-        class="w-full px-4 my-10 text-center md:my-6 md:w-1/3"
+        class="w-full px-4 my-10 text-center md:my-6 md:w-1/3 xl:px-10"
         v-for="benefit in content.benefits_item"
         :key="benefit.id"
       >
