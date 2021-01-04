@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "book_site_contents",
+  "info": {
+    "name": "Book Site Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "bio": {
+      "type": "richtext"
+    },
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.hero"
+    }
+  }
+}

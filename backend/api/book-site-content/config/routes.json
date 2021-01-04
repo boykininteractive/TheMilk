@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/book-site-content",
+      "handler": "book-site-content.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/book-site-content",
+      "handler": "book-site-content.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/book-site-content",
+      "handler": "book-site-content.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
