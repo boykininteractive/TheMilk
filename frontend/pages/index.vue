@@ -1,7 +1,7 @@
 <template>
   <div>
     <LazyHero :content="cms.Hero" />
-    <!-- <LazyBenefits /> -->
+    <LazyBenefits :content="cms.Benefits" />
 
     <!--- CHAPTERS --->
     <LazyChaptersTop />

@@ -25,6 +25,11 @@
       "type": "component",
       "repeatable": false,
       "component": "site.chapter-list"
+    },
+    "Benefits": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.benefits"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_benefits_items",
+  "info": {
+    "name": "benefits_item",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_site_benefits",
+  "info": {
+    "name": "Benefits",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "benefits_title": {
+      "type": "string"
+    },
+    "benefits_subtitle": {
+      "type": "text"
+    },
+    "benefits_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "site.benefits-item"
+    }
+  }
+}
