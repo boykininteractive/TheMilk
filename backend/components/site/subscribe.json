@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_site_subscribes",
+  "info": {
+    "name": "Subscribe",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subscribe_title": {
+      "type": "string"
+    },
+    "subscribe_subtitle": {
+      "type": "richtext"
+    }
+  }
+}

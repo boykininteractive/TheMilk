@@ -40,6 +40,11 @@
       "type": "component",
       "repeatable": false,
       "component": "site.reviews"
+    },
+    "Subscribe": {
+      "type": "component",
+      "repeatable": false,
+      "component": "site.subscribe"
     }
   }
 }

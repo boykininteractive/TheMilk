@@ -33,7 +33,7 @@
       </div>
       <div class="leading-loose text-center text-gray-600">
         <button
-          class="px-10 py-4 mx-auto mt-10 text-white uppercase rounded-full bg-primary-blue"
+          class="px-10 py-4 mx-auto mt-10 text-white uppercase rounded-full outline-none bg-primary-blue"
         >
           Get Your Copy Today
         </button>

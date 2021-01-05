@@ -14,8 +14,8 @@
 
     <!--- BIO --->
     <div
-      class="mx-auto prose text-white"
-      style="max-width: 760px"
+      id="bio"
+      class="max-w-screen-md mx-auto prose text-white"
       v-html="$md.render(content.bio)"
     ></div>
   </section>
@@ -32,8 +32,8 @@ export default {
 };
 </script> 
 
-<style scoped>
-.prose strong {
+<style >
+#bio strong {
   color: #fff;
 }
 </style>

@@ -15,7 +15,7 @@
     <LazyReviews :content="cms.Reviews" />
     <LazyReviewsBottom />
 
-    <!-- <LazySubscribe /> -->
+    <LazySubscribe :content="cms.Subscribe" />
 
     <!--- AUTHOR --->
     <LazyAuthorTop />

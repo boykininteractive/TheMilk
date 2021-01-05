@@ -15,7 +15,15 @@ module.exports = {
           "blue": "#3158a0",
           "gray": "#f2f2f2"
         },
-
+      typography: {
+        DEFAULT: {
+          css: {
+            strong: {
+              fontWeight: '800',
+            },
+          },
+        },
+      },
       }
     },
     typography: {
