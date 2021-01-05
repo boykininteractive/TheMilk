@@ -8,7 +8,7 @@
       {{ content.reviews_subtitle }}
     </div>
 
-    <div class="flex flex-wrap justify-center">
+    <div class="flex flex-wrap justify-center max-w-screen-xl mx-auto">
       <div
         class="relative px-6 pt-12 pb-6 mx-4 mt-16 text-base italic font-normal bg-white lg:border-2 lg:w-1/4 lg:px-4 lg:mx-4"
         v-for="review in content.review"
