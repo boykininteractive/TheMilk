@@ -56,9 +56,15 @@ export default {
     '@nuxtjs/markdownit',
   ],
   /*
-** MARKDOWNIT
-*/
-markdownit: {
+  ** STRAPI
+  */
+  strapi: {
+    url: "https://api.thepursuitofhappinessatwork.com"
+  },
+  /*
+  ** MARKDOWNIT
+  */
+  markdownit: {
     injected: true
   },
   /*
