@@ -15,7 +15,6 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@nuxtjs/strapi": "^0.1.9",
     "nuxt": "^2.0.0",
     "@nuxtjs/markdownit": "^1.2.10",
     "@tailwindcss/typography": "^0.2.0"

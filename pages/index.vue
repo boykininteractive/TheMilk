@@ -25,11 +25,14 @@
 
 
 <script>
-export default {
-  async asyncData({ params, $strapi }) {
-    const cms = await $strapi.find("book-site-content");
+import axios from "axios";
 
-    return { cms };
+export default {
+  async asyncData({ params }) {
+    const { data } = await axios.get(
+      `https://api.thepursuitofhappinessatwork.com/book-site-content`
+    );
+    return { cms: data };
   },
 };
 </script>
