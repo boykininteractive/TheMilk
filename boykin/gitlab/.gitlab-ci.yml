@@ -1,0 +1,30 @@
+image: alpine
+
+stages:
+  - deploy
+  - post_deploy
+
+before_script:
+  - apk update && apk add git
+  - apk add openssh sshpass lftp
+  - git submodule sync --recursive
+  - git submodule update --init --recursive
+
+deploy:
+  image: alpine
+  stage: deploy
+  script:
+    - ls -al
+    - mkdir .public
+    - cp -r * .public
+    - echo "pwd" | sshpass -p $FTP_PASSWORD sftp -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS
+    - lftp -e "mirror -R .public/ /var/www/thepursuitofhappinessatwork.com.boykin.dev/" -u $FTP_USERNAME,$FTP_PASSWORD sftp://$IP_ADDRESS
+
+post_production:
+  stage: post_deploy
+  script:
+    - apt-get update -qq && apt-get install -y -qq sshpass
+    - sshpass -V
+    - export SSHPASS=$FTP_PASSWORD
+    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/thepursuitofhappinessatwork.com.boykin.dev && chmod +x ./build.sh"
+    - sshpass -p "$FTP_PASSWORD" ssh -o StrictHostKeyChecking=no $FTP_USERNAME@$IP_ADDRESS "cd /var/www/thepursuitofhappinessatwork.com.boykin.dev && ./build.sh"

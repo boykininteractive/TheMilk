@@ -1,0 +1,36 @@
+<template>
+  <div class="parent">
+    <div class="child" contenteditable>:)</div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style scoped>
+.parent {
+  display: grid;
+  place-items: center;
+
+  background: lightblue;
+  width: 500px;
+  height: 500px;
+
+  resize: both;
+  overflow: auto;
+}
+
+.child {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid red;
+  background: lightpink;
+  font-size: 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: system-ui, serif;
+}
+</style>

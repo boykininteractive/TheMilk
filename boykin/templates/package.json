@@ -1,0 +1,8 @@
+"scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "npm run generate && firebase deploy",
+    "rebuild": "npm cache clean -f && rm -rf node_modules package-lock.json && npm update && npm install -g npm"
+},
