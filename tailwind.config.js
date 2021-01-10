@@ -41,5 +41,15 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: [require("@tailwindcss/typography")]
+  plugins: [require("@tailwindcss/typography")],
+  purge: {
+    enabled: true,
+    content: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js'
+    ]
+  }
 }

@@ -3,7 +3,7 @@
   <section class="relative bg-primary-blue" style="height: 610px">
     <!--- SECTION BACKGROUND DESIGN --->
     <img
-      src="/CDN/assets/images/hero-shape-left.png"
+      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-left.png"
       class="absolute top-0 left-0 z-10"
       alt="left shape"
     />
@@ -22,7 +22,11 @@
           {{ content.description }}
         </div>
         <div class="cta-holder">
-          <a class="px-10 py-4 uppercase bg-white rounded-full md:mr-8"
+          <a
+            href="https://amazon.com"
+            rel="noopener"
+            target="_blank"
+            class="px-10 py-4 uppercase bg-white rounded-full md:mr-8"
             >Buy for $9.99</a
           >
           <a
@@ -35,7 +39,8 @@
       <!--- BOOK COVER --->
       <div class="w-full -mt-16 md:mt-0 md:w-6/12 lg:w-5/12">
         <img
-          src="/CDN/assets/images/bookcover_hardcover.png"
+          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610244894/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_hardcover.png"
+          alt="book cover"
           class="relative z-20 h-auto max-w-xs mx-auto md:max-w-sm"
         />
       </div>
@@ -45,7 +50,8 @@
     <img
       class="bottom-0 left-0 right-0 hidden w-full md:block md:absolute"
       style="height: 380px"
-      src="/CDN/assets/images/hero-shape-bottom.png"
+      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-bottom.png"
+      alt="Hero Shape Bottom"
     />
   </section>
 </template> 

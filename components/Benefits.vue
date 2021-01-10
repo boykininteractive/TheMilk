@@ -7,7 +7,7 @@
 
     <!--- SECTION SUBTITLE --->
     <div
-      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-600 lg:text-2xl"
+      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-700 lg:text-2xl"
     >
       {{ content.benefits_subtitle }}
     </div>
@@ -21,7 +21,7 @@
         <div class="mb-4 text-lg font-bold font-Ubuntu">
           {{ benefit.header }}
         </div>
-        <div class="text-gray-600">{{ benefit.description }}</div>
+        <div class="text-gray-700">{{ benefit.description }}</div>
       </div>
     </div>
   </section>

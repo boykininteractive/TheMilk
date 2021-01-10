@@ -6,11 +6,15 @@
     <div class="flex flex-wrap justify-center">
       <!--- BOOK COVER --->
       <div class="max-w-md -mt-10 text-center md:max-w-sm md:mr-20">
-        <img src="/CDN/assets/images/bookcover_shadow.png" class="mx-auto" />
+        <img
+          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610244895/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_shadow.png"
+          alt="book cover"
+          class="mx-auto"
+        />
       </div>
 
       <!--- CHAPTER LISTING --->
-      <div class="leading-loose text-center text-gray-600">
+      <div class="leading-loose text-center text-gray-700">
         <div
           v-for="chap in content.Chapter"
           :key="chap.id"
