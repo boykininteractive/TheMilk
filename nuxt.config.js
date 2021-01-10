@@ -4,7 +4,7 @@ export default {
     port: 3031, // default: 3000
     host: "localhost" // default: localhost
   },
-  target: 'static', // default is 'server',
+  // target: 'static', // default is 'server',
   /*
   ** Headers of the page
   */
