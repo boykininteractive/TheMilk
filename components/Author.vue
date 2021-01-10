@@ -18,6 +18,23 @@
       class="max-w-screen-md mx-auto prose text-white"
       v-html="$md.render(content.bio)"
     ></div>
+
+    <!--- SOCIAL / FOLLOW ME --->
+    <div class="w-full mt-12 text-center">
+      <div class="text-2xl font-bold font-Ubuntu">Follow Me</div>
+      <div class="flex justify-around w-64 mx-auto my-4">
+        <LazySocialIcon
+          type="facebook"
+          userName="ThePursuitOfHappinessAtWork"
+        />
+        <LazySocialIcon type="twitter" userName="TPOHAW" />
+        <LazySocialIcon type="instagram" userName="TPOHAW" />
+        <LazySocialIcon
+          type="linkedin"
+          userName="company/thepursuitofhappinessatwork"
+        />
+      </div>
+    </div>
   </section>
 </template>
 
