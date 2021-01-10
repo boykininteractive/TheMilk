@@ -5,7 +5,7 @@
 
     <!--- CONTENT AREA --->
     <div
-      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-600 lg:text-2xl"
+      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-700 lg:text-2xl"
       v-html="$md.render(content.subscribe_subtitle)"
     ></div>
 
