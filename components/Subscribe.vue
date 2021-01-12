@@ -1,13 +1,10 @@
 <template>
   <section class="max-w-6xl px-6 pt-0 mx-auto mt-0 mb-12 text-black">
     <!--- SECTION TITLE --->
-    <LazySectionTitle :content="content.subscribe_title" />
-
-    <!--- CONTENT AREA --->
-    <div
-      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-700 lg:text-2xl"
-      v-html="$md.render(content.subscribe_subtitle)"
-    ></div>
+    <LazySectionTitle
+      :title="content.subscribe_title"
+      :subtitle="content.subscribe_subtitle"
+    />
 
     <div class="box-border text-base font-normal leading-6 text-left">
       <form

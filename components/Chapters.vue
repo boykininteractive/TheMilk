@@ -1,13 +1,13 @@
 <template>
   <section class="px-6 py-16 text-black bg-primary-gray">
     <!--- SECTION TITLE --->
-    <LazySectionTitle :content="content.chapterlist_title" />
+    <LazySectionTitle :title="content.chapterlist_title" subtitle="" />
 
-    <div class="flex flex-wrap justify-center">
+    <div class="flex flex-wrap items-center justify-center py-8">
       <!--- BOOK COVER --->
-      <div class="max-w-md -mt-10 text-center md:max-w-sm md:mr-20">
+      <div class="max-w-md text-center md:max-w-sm md:mr-20">
         <img
-          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610244895/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_shadow.png"
+          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610455616/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_shadow.png"
           alt="book cover"
           class="mx-auto"
         />
@@ -22,12 +22,14 @@
         >
           {{ chap.chapter_name }}
         </div>
-        <button
-          class="px-10 py-4 mx-auto mt-10 text-white uppercase rounded-full bg-primary-blue md:mr-8"
-        >
-          I Want This Book
-        </button>
       </div>
+    </div>
+    <div class="w-full text-center">
+      <button
+        class="px-10 py-4 mx-auto mt-10 text-white uppercase rounded-full bg-primary-blue md:mr-8"
+      >
+        I Want This Book
+      </button>
     </div>
   </section>
 </template>

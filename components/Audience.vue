@@ -1,21 +1,25 @@
 <template>
   <section class="max-w-6xl px-6 pt-0 mx-auto mt-0 mb-12 text-black">
     <!--- SECTION TITLE --->
-    <LazySectionTitle :content="content.audience_title" />
-
-    <!--- SECTION SUBTITLE --->
-    <div
-      class="max-w-screen-md mx-auto -mt-6 text-xl text-center text-gray-600 lg:text-2xl"
-    >
-      {{ content.audience_subtitle }}
+    <LazySectionTitle
+      :title="content.audience_title"
+      :subtitle="content.audience_subtitle"
+    />
+    <div class="mt-16">
+      <div
+        class="mx-auto mt-8 text-lg text-black"
+        style="max-width: 500px"
+        v-for="item in content.audience_item"
+        :key="item.id"
+      >
+        <h4 class="my-2 text-xl font-bold">
+          <i class="mr-3 fa fa-angle-right"></i>{{ item.audience_item_heading }}
+        </h4>
+        <div class="font-light text-gray-600">
+          {{ item.audience_item_description }}
+        </div>
+      </div>
     </div>
-
-    <!--- CONTENT AREA --->
-    <div
-      class="mx-auto mt-12 text-lg prose text-black"
-      style="max-width: 500px"
-      v-html="$md.render(content.audience_description)"
-    ></div>
   </section>
 </template>
 

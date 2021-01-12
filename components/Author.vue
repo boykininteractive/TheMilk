@@ -10,12 +10,12 @@
     </div>
 
     <!--- SECTION TITLE --->
-    <LazySectionTitle :content="content.author_title" />
+    <LazySectionTitle :title="content.author_title" subtitle="" />
 
     <!--- BIO --->
     <div
       id="bio"
-      class="max-w-screen-md mx-auto prose text-white"
+      class="max-w-screen-md py-6 mx-auto prose text-white"
       v-html="$md.render(content.bio)"
     ></div>
 

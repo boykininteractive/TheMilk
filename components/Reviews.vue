@@ -1,12 +1,10 @@
 <template>
   <section class="px-6 py-16 text-black bg-primary-gray">
     <!--- SECTION TITLE --->
-    <LazySectionTitle :content="content.reviews_title" />
-
-    <!--- SECTION SUBTITLE --->
-    <div class="mx-auto -mt-6 text-xl text-center text-gray-600 lg:text-2xl">
-      {{ content.reviews_subtitle }}
-    </div>
+    <LazySectionTitle
+      :title="content.reviews_title"
+      :subtitle="content.reviews_subtitle"
+    />
 
     <div class="flex flex-wrap justify-center max-w-screen-xl mx-auto">
       <div
