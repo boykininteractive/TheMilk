@@ -15,7 +15,7 @@
     <!--- BIO --->
     <div
       id="bio"
-      class="max-w-screen-md py-6 mx-auto prose text-white"
+      class="max-w-screen-md py-6 mx-auto prose-xl text-white"
       v-html="$md.render(content.bio)"
     ></div>
 

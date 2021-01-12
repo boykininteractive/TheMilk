@@ -14,7 +14,7 @@
       </div>
 
       <!--- CHAPTER LISTING --->
-      <div class="leading-loose text-center text-gray-700">
+      <div class="pt-6 leading-loose text-center text-gray-700">
         <div
           v-for="chap in content.Chapter"
           :key="chap.id"

@@ -18,7 +18,7 @@
         >
           {{ content.hero_title }}
         </h1>
-        <div class="mb-10 text-xl text-white">
+        <div class="mb-10 text-xl text-white font-Ubuntu">
           {{ content.description }}
         </div>
         <div class="cta-holder">

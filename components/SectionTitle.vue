@@ -16,7 +16,7 @@
     </div>
     <!--- SECTION SUBTITLE --->
     <div
-      class="max-w-screen-md mx-auto -mt-6 text-2xl font-light text-center text-gray-600"
+      class="max-w-screen-md mx-auto -mt-6 text-2xl font-light text-center text-gray-600 font-Ubuntu"
     >
       {{ subtitle }}
     </div>
