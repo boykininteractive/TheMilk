@@ -43,7 +43,7 @@ module.exports = {
   variants: {},
   plugins: [require("@tailwindcss/typography")],
   purge: {
-    enabled: false,
+    enabled: true,
     content: [
       'components/**/*.vue',
       'layouts/**/*.vue',
