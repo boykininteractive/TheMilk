@@ -32,6 +32,7 @@ export default {
         {
           src: "https://kit.fontawesome.com/f19292244f.js",
           crossorigin: "anonymous",
+          defer: "true",
         },
       ],
     };
