@@ -26,14 +26,7 @@
 <script>
 export default {
   head() {
-    return {
-      script: [
-        {
-          src: "https://kit.fontawesome.com/f19292244f.js",
-          crossorigin: "anonymous",
-        },
-      ],
-    };
+    return {};
   },
   props: {
     content: {
