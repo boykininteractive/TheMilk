@@ -12,10 +12,10 @@
         v-for="item in content.audience_item"
         :key="item.id"
       >
-        <h4 class="my-2 text-xl font-bold">
+        <div class="my-2 text-xl font-bold">
           <i class="mr-3 fa fa-angle-right"></i>{{ item.audience_item_heading }}
-        </h4>
-        <div class="font-light text-gray-600">
+        </div>
+        <div class="font-light text-gray-700">
           {{ item.audience_item_description }}
         </div>
       </div>

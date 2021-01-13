@@ -18,7 +18,7 @@
         <div class="mb-4 text-lg font-bold font-Ubuntu">
           {{ benefit.header }}
         </div>
-        <div class="text-gray-600">{{ benefit.description }}</div>
+        <div class="text-gray-700">{{ benefit.description }}</div>
       </div>
     </div>
   </section>
