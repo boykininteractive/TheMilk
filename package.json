@@ -9,7 +9,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "rebuild": "npm cache clean -f && rm -rf node_modules package-lock.json && npm update && npm install -g npm && npm install",
+    "rebuild": "npm cache clean -f && rm -rf node_modules .nuxt dist package-lock.json && npm update && npm install -g npm && npm install",
     "prod": "npm run build && npm run start"
   },
   "dependencies": {

@@ -74,6 +74,25 @@ export default {
   markdownit: {
     injected: true
   },
+    /*
+   ** PWA Icon Configuration
+   */
+  icon: {
+    iconSrc: "/CDN/assets/favicon/android-chrome-512x512.png"
+  },
+  pwa: {
+    meta: {
+      /* meta options */
+      /* Address Bar Matches Brand Colors */
+      theme_color: "#375B76"
+    },
+    manifest: {
+      name: 'The Pursuit Of Happiness At Work',
+      short_name: 'ThePursuitOfHappinessAtWork.com',
+      lang: 'en',
+      useWebmanifestExtension: true
+    }
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
