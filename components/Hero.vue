@@ -3,7 +3,7 @@
   <section class="relative bg-primary-blue" style="height: 610px">
     <!--- SECTION BACKGROUND DESIGN --->
     <img
-      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610542001/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-left.png"
+      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610542253/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-left.png"
       class="absolute top-0 left-0 z-10"
       alt="left shape"
     />
