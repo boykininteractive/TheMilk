@@ -3,9 +3,9 @@
     <!--- BIO PIC --->
     <div class="w-full pt-10 text-center">
       <img
-        src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,q_80,w_200/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/biopic.jpg"
+        data-src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,q_80,w_200/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/biopic.jpg"
         alt="image"
-        class="mx-auto border-4 border-blue-900 rounded-full w-36 h-36"
+        class="mx-auto border-4 border-blue-900 rounded-full lazyload w-36 h-36"
       />
     </div>
 

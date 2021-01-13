@@ -7,9 +7,9 @@
       <!--- BOOK COVER --->
       <div class="max-w-md text-center md:max-w-sm md:mr-20">
         <img
-          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610455616/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_shadow.png"
+          data-src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610455616/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_shadow.png"
           alt="book cover"
-          class="mx-auto"
+          class="mx-auto lazyload"
         />
       </div>
 

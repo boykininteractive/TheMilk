@@ -1,6 +1,6 @@
 
 export default {
-    server: {
+  server: {
     port: 3031, // default: 3000
     host: "localhost" // default: localhost
   },
@@ -21,15 +21,15 @@ export default {
         rel: "preload",
         as: "style",
         onload: "this.onload=null;this.rel='stylesheet'",
-        media:"all",
+        media: "all",
         href: "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       }
     ],
-          script:[  {
-          src: "https://kit.fontawesome.com/f19292244f.js",
-          crossorigin: "anonymous",
-          defer: "true",
-        }],
+    script: [{
+      src: "https://kit.fontawesome.com/f19292244f.js",
+      crossorigin: "anonymous",
+      defer: "true",
+    }],
   },
   /*
   ** Customize the progress-bar color
@@ -44,6 +44,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/lazysizes.client.js'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -52,11 +53,11 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
-    components: [
+  components: [
     // Module Option as an array of Strings
     {
       path: "~/components/",
-  },
+    },
   ],
   /*
   ** Nuxt.js modules
@@ -83,10 +84,11 @@ export default {
   ** Build configuration
   */
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend (config, ctx) {
+    extend(config, { isDev, isClient, loaders: { vue } }) {
+      if (isClient) {
+        vue.transformAssetUrls.img = ["data-src", "src"];
+        vue.transformAssetUrls.source = ["data-srcset", "srcset"];
+      }
     }
   }
-}
+};
