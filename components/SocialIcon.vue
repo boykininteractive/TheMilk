@@ -11,12 +11,7 @@
 ****************************************************************--->
 
 <template>
-  <a
-    :href="link"
-    aria-label="Social Media Link"
-    target="_blank"
-    rel="noreferrer"
-  >
+  <a :href="link" aria-label="Social Media Link" target="_blank" rel="noopener">
     <!--- FACEBOOK --->
     <svg
       v-if="type === 'facebook'"

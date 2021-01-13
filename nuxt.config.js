@@ -84,11 +84,11 @@ export default {
     meta: {
       /* meta options */
       /* Address Bar Matches Brand Colors */
-      theme_color: "#375B76"
+      theme_color: "#3158a0"
     },
     manifest: {
-      name: 'The Pursuit Of Happiness At Work',
-      short_name: 'ThePursuitOfHappinessAtWork.com',
+      name: 'TPOHAW',
+      short_name: 'TPOHAW',
       lang: 'en',
       useWebmanifestExtension: true
     }
