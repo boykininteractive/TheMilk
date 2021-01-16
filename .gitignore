@@ -91,6 +91,3 @@ sw.*
 
 # Boykin 
 $Client_Docs
-
-# Git Modules
-.gitmodules
