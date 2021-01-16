@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export default (context, inject) => {
-    const apiUrl= "https://api.createsend.com/api/v3.2"
+    const apiUrl= "https://api.createsend.com/api/v3.1"
     const apiKey= "I8x+inxLnt/W6t67YhlreoftFJJLuFGQZabMJOyOaTmxxKX20iRtrnsnO0jE+ZIhx3VnlaxZIZeXI3YZqmnPL6fXHGYafwgQcfPorZ7XTQ/GiFdhrWIhi8sMuK9sxL87TgIVY7mLxFoU8BA0j0f9aA=="
     let result = {
         "status": "",
@@ -34,7 +34,6 @@ export default (context, inject) => {
               password: "",
               },
             headers:{
-                    "Content-Type": "application/json",
                     "Access-Control-Allow-Origin": "*",
             }
           }

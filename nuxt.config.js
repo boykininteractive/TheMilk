@@ -1,4 +1,3 @@
-
 export default {
   server: {
     port: 3031, // default: 3000
@@ -54,21 +53,51 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
-  components: [
+
+  
+  /* =================================================
+  ** Auto Import Components in Nuxt
+  ** See https://github.com/nuxt/components
+  ** =================================================*/ 
+    components: [
     // Module Option as an array of Strings
-    {
-      path: "~/components/",
-    },
-  ],
-  /*
+      {
+        path: "~/components/",
+      },
+      {
+        path: "~boykin/components/",
+      }
+    ],
+  
+
+  /* =================================================
   ** Nuxt.js modules
-  */
-  modules: [
-    // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    '@nuxtjs/pwa',
-    '@nuxtjs/markdownit',
-  ],
+    =================================================*/ 
+    modules: [
+      // Doc: https://axios.nuxtjs.org/usage
+      '@nuxtjs/axios',
+      '@nuxtjs/pwa',
+      '@nuxtjs/markdownit',
+    ],
+
+
+  /* =================================================
+  ** Axios module configuration
+  ** See https://axios.nuxtjs.org/options
+    =================================================*/
+  axios: {
+    proxy: true
+  },
+  proxy: {
+    '/campaignMonitor': {
+    target: 'https://api.createsend.com/api/v3.2',
+    pathRewrite: {
+      '^/campaignMonitor' : '/'
+      }
+    }
+  },
+
+    
   /*
   ** MARKDOWNIT
   */
@@ -94,12 +123,7 @@ export default {
       useWebmanifestExtension: true
     }
   },
-  /*
-  ** Axios module configuration
-  ** See https://axios.nuxtjs.org/options
-  */
-  axios: {
-  },
+
   /*
   ** Build configuration
   */
