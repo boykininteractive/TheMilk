@@ -44,7 +44,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/lazysizes.client.js'
+    '~/plugins/lazysizes.client.js',
+    '~/plugins/campaignmonitor.client.js'
   ],
   /*
   ** Nuxt.js dev-modules

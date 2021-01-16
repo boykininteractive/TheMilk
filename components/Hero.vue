@@ -3,8 +3,8 @@
   <section class="relative bg-primary-blue" style="height: 610px">
     <!--- SECTION BACKGROUND DESIGN --->
     <img
-      data-src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610542253/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-left.png"
-      class="absolute top-0 left-0 z-10 lazyload"
+      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610542253/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-left.png"
+      class="absolute top-0 left-0 z-10"
       alt="left shape"
     />
     <div
@@ -39,18 +39,18 @@
       <!--- BOOK COVER --->
       <div class="w-full -mt-16 md:mt-0 md:w-6/12 lg:w-5/12">
         <img
-          data-src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610244894/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_hardcover.png"
+          src="https://res.cloudinary.com/boykinllc/image/upload/c_scale,f_auto,w_500/v1610244894/The%20Pursuit%20of%20Happiness%20at%20Work/bookcover_hardcover.png"
           alt="book cover"
-          class="relative z-20 h-auto max-w-xs mx-auto lazyload md:max-w-sm"
+          class="relative z-20 h-auto max-w-xs mx-auto md:max-w-sm"
         />
       </div>
     </div>
 
     <!--- HERO SHAPE BOTTON --->
     <img
-      class="bottom-0 left-0 right-0 hidden w-full lazyload md:block md:absolute"
+      class="bottom-0 left-0 right-0 hidden w-full md:block md:absolute"
       style="height: 380px"
-      data-src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-bottom.png"
+      src="https://res.cloudinary.com/boykinllc/image/upload/f_auto/v1610244893/The%20Pursuit%20of%20Happiness%20at%20Work/hero-shape-bottom.png"
       alt="Hero Shape Bottom"
     />
   </section>
